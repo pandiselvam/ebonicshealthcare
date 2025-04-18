@@ -1,0 +1,27 @@
+table.prod {
+	border-spacing: 0;
+	width: 100%;
+}
+
+table.prod th:first-child {
+	border-radius: 6px 0 0 0;
+}
+
+table.prod th:last-child {
+	border-radius: 0 6px 0 0;
+}
+
+table.prod th:only-child {
+	border-radius: 6px 6px 0 0;
+}
+
+table.prod td {
+	text-align: left;
+	font-size: 11px;
+	background: #e5e5db;
+}
+
+table.prod th {
+	text-align: left;
+	background: rgba(155, 167, 37, 0.5);
+}
