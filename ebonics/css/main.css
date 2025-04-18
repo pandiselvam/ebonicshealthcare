@@ -1,1 +1,16 @@
+.largeHeading {
+	/*font-family: times, Times New Roman, times-roman, georgia, serif;*/
+	font-size: 42px;
+	line-height: 37px;
+	letter-spacing: -1px;
+	font-variant: small-caps;
+	color: #0D0BB4;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	font-weight: 100;
+}
 
+.namespanLeft {
+	float: left;
+	margin: 10px 10px 0px 5px;
+}
