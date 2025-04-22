@@ -48,22 +48,31 @@
 .division-item p {
   margin: 0.5rem 0 0;
 }
-	
-table {
+
+.table-responsive {
   width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 1.5rem;
+}
+
+table {
   border-collapse: collapse;
-  font-size: 0.9rem; /* slightly smaller font */
+  width: 100%;
+  min-width: 600px;
+  font-size: 0.9rem; 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 1rem;
 }
 
 th, td {
-  border: 1px solid #e0e0e0;
-  padding: 0.75rem;
   text-align: left;
+  padding: 0.75rem;
+  border-bottom: 1px solid #ccc;
+  border: 1px solid #e0e0e0;
   vertical-align: top;
 }
-
+	
 thead th {
   background-color: #f4f7fb;
   color: #2c3e50;
@@ -80,4 +89,10 @@ tbody tr:hover {
 
 h1 + table {
   margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  table {
+    font-size: 0.9rem;
+  }
 }
